@@ -34,8 +34,8 @@ import borders from "assets/theme/base/borders";
 import colors from "assets/theme/base/colors";
 
 // Vision UI Dashboard component exemples
-import Mastercard from "componentExamples/Icons/Mastercard";
-import Visa from "componentExamples/Icons/Visa";
+import Mastercard from "examples/Icons/Mastercard";
+import Visa from "examples/Icons/Visa";
 
 function PaymentMethod() {
   const { grey } = colors;

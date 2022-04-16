@@ -23,11 +23,11 @@ import Grid from "@mui/material/Grid";
 import VuiBox from "components/VuiBox";
 
 // Vision UI Dashboard React components
-import MasterCard from "componentExamples/Cards/MasterCard";
+import MasterCard from "examples/Cards/MasterCard";
 // Vision UI Dashboard React example components
-import DashboardLayout from "componentExamples/LayoutContainers/DashboardLayout";
-import DashboardNavbar from "componentExamples/Navbars/DashboardNavbar";
-import Footer from "componentExamples/Footer";
+import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
+import DashboardNavbar from "examples/Navbars/DashboardNavbar";
+import Footer from "examples/Footer";
 
 // Billing page components
 import PaymentMethod from "layouts/billing/components/PaymentMethod";

@@ -24,10 +24,10 @@ import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 
 // Vision UI Dashboard React example components
-import DashboardLayout from "componentExamples/LayoutContainers/DashboardLayout";
-import DashboardNavbar from "componentExamples/Navbars/DashboardNavbar";
-import Footer from "componentExamples/Footer";
-import Table from "componentExamples/Tables/Table";
+import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
+import DashboardNavbar from "examples/Navbars/DashboardNavbar";
+import Footer from "examples/Footer";
+import Table from "examples/Tables/Table";
 
 // Data
 import authorsTableData from "layouts/tables/data/authorsTableData";

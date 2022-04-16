@@ -13,7 +13,8 @@ import Profile from "layouts/profile";
 
 import SignUp from "layouts/authentication/sign-up";
 import { MdOutlineWork } from "react-icons/md";
-import partners from "layouts/programs";
+import partners from "layouts/partners";
+import Programs from "layouts/programs";
 
 // Vision UI Dashboard React icons
 
@@ -214,7 +215,7 @@ class DynamicRouters {
           key: "Programs",
           route: "/Programs",
           icon: <BsFillFilePostFill size="15px" color="inherit" />,
-          component: HomePage,
+          component: Programs,
           noCollapse: true,
         },
         {

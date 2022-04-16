@@ -9,10 +9,10 @@ import VuiTypography from "components/VuiTypography";
 import VuiProgress from "components/VuiProgress";
 
 // Vision UI Dashboard React example components
-import DashboardLayout from "componentExamples/LayoutContainers/DashboardLayout";
-import DashboardNavbar from "componentExamples/Navbars/DashboardNavbar";
-import Footer from "componentExamples/Footer";
-import MiniStatisticsCard from "componentExamples/Cards/StatisticsCards/MiniStatisticsCard";
+import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
+import DashboardNavbar from "examples/Navbars/DashboardNavbar";
+import Footer from "examples/Footer";
+import MiniStatisticsCard from "examples/Cards/StatisticsCards/MiniStatisticsCard";
 import linearGradient from "assets/theme/functions/linearGradient";
 
 // Vision UI Dashboard React base styles
@@ -35,8 +35,8 @@ import { IoDocumentText } from "react-icons/io5";
 import { FaShoppingCart } from "react-icons/fa";
 
 // Data
-import LineChart from "componentExamples/Charts/LineCharts/LineChart";
-import BarChart from "componentExamples/Charts/BarCharts/BarChart";
+import LineChart from "examples/Charts/LineCharts/LineChart";
+import BarChart from "examples/Charts/BarCharts/BarChart";
 import { lineChartDataDashboard } from "layouts/dashboard/data/lineChartData";
 import { lineChartOptionsDashboard } from "layouts/dashboard/data/lineChartOptions";
 import { barChartDataDashboard } from "layouts/dashboard/data/barChartData";

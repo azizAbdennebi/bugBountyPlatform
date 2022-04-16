@@ -34,11 +34,11 @@ import profile3 from "assets/images/profile-3.png";
 // Vision UI Dashboard React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
-import ProfileInfoCard from "componentExamples/Cards/InfoCards/ProfileInfoCard";
-import DefaultProjectCard from "componentExamples/Cards/ProjectCards/DefaultProjectCard";
-import Footer from "componentExamples/Footer";
+import ProfileInfoCard from "examples/Cards/InfoCards/ProfileInfoCard";
+import DefaultProjectCard from "examples/Cards/ProjectCards/DefaultProjectCard";
+import Footer from "examples/Footer";
 // Vision UI Dashboard React example components
-import DashboardLayout from "componentExamples/LayoutContainers/DashboardLayout";
+import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 // Overview page components
 import Header from "layouts/profile/components/Header";
 import PlatformSettings from "layouts/profile/components/PlatformSettings";

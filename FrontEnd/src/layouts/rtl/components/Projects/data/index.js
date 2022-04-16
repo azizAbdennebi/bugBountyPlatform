@@ -8,12 +8,12 @@ import VuiAvatar from "components/VuiAvatar";
 import VuiProgress from "components/VuiProgress";
 
 // Images
-import AdobeXD from "componentExamples/Icons/AdobeXD";
-import Atlassian from "componentExamples/Icons/Atlassian";
-import Slack from "componentExamples/Icons/Slack";
-import Spotify from "componentExamples/Icons/Spotify";
-import Jira from "componentExamples/Icons/Jira";
-import Invision from "componentExamples/Icons/Invision";
+import AdobeXD from "examples/Icons/AdobeXD";
+import Atlassian from "examples/Icons/Atlassian";
+import Slack from "examples/Icons/Slack";
+import Spotify from "examples/Icons/Spotify";
+import Jira from "examples/Icons/Jira";
+import Invision from "examples/Icons/Invision";
 import logoSlack from "assets/images/small-logos/logo-slack.svg";
 import logoSpotify from "assets/images/small-logos/logo-spotify.svg";
 import logoJira from "assets/images/small-logos/logo-jira.svg";

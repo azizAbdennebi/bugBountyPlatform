@@ -9,10 +9,10 @@ import VuiTypography from "components/VuiTypography";
 import VuiProgress from "components/VuiProgress";
 
 // Vision UI Dashboard React example components
-import DashboardLayout from "componentExamples/LayoutContainers/DashboardLayout";
-import DashboardNavbar from "componentExamples/Navbars/DashboardNavbar";
-import Footer from "componentExamples/Footer";
-import MiniStatisticsCard from "componentExamples/Cards/StatisticsCards/MiniStatisticsCard";
+import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
+import DashboardNavbar from "examples/Navbars/DashboardNavbar";
+import Footer from "examples/Footer";
+import MiniStatisticsCard from "examples/Cards/StatisticsCards/MiniStatisticsCard";
 import linearGradient from "assets/theme/functions/linearGradient";
 
 // Vision UI Dashboard React base styles
@@ -35,36 +35,28 @@ import { IoDocumentText } from "react-icons/io5";
 import { FaShoppingCart } from "react-icons/fa";
 
 // Data
-import LineChart from "componentExamples/Charts/LineCharts/LineChart";
-import BarChart from "componentExamples/Charts/BarCharts/BarChart";
+import LineChart from "examples/Charts/LineCharts/LineChart";
+import BarChart from "examples/Charts/BarCharts/BarChart";
 import { lineChartDataDashboard } from "layouts/dashboard/data/lineChartData";
 import { lineChartOptionsDashboard } from "layouts/dashboard/data/lineChartOptions";
 import { barChartDataDashboard } from "layouts/dashboard/data/barChartData";
 import { barChartOptionsDashboard } from "layouts/dashboard/data/barChartOptions";
-
-import programsCard from "./components/programsCards";
-import programsData from "services/programs";
-import AllprogramsCards from "./components/programsCards/allprogramsCards";
+import CoverLayout from "./components/cover";
+import cover from "assets/images/Tech_NeonCircuitboard.webp"
+import AllProgramCards from "./components/programCards/allPartnerCards";
 //import HomeCover from "./components/cover/index1";
 //import coverPhoto from "src\assets\images\hero-technology-hub.jpeg";
 
-function partners() {
+function Programs() {
   const { gradients } = colors;
   const { cardContent } = gradients;
-  
-
- 
-
-  /*programsData.map((partner) =>
-  <Grid item xs={12} lg={6} xl={3}>
-              <programsCard name={partner.name} />
-            </Grid>
-);
-*/
 
   return (
     <DashboardLayout>
       <DashboardNavbar />
+     
+
+     
 
       <VuiBox py={3}>
         <VuiBox mb={3}>
@@ -104,10 +96,12 @@ function partners() {
           </Grid>
         </VuiBox>
         <VuiBox mb={3}>
-         
           <Grid container spacing="18px">
-          <AllprogramsCards/>
-           
+          <AllProgramCards/>
+            
+            <Grid item xs={12} lg={6} xl={4}>
+              <ReferralTracking />
+            </Grid>
           </Grid>
         </VuiBox>
         <VuiBox mb={3}>
@@ -283,4 +277,4 @@ function partners() {
   );
 }
 
-export default partners;
+export default Programs;

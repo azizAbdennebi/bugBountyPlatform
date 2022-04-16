@@ -35,7 +35,7 @@ import { IoCube } from "react-icons/io5";
 import { IoDocument } from "react-icons/io5";
 import { IoBuild } from "react-icons/io5";
 // Vision UI Dashboard React example components
-import DashboardNavbar from "componentExamples/Navbars/DashboardNavbar";
+import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import { useEffect, useState } from "react";
 
 function Header() {

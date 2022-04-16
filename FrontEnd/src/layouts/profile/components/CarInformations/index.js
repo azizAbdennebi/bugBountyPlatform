@@ -26,7 +26,7 @@ import WhiteLightning from "assets/images/shapes/white-lightning.svg";
 import linearGradient from "assets/theme/functions/linearGradient";
 import colors from "assets/theme/base/colors";
 import carProfile from "assets/images/shapes/car-profile.svg";
-import LineChart from "componentExamples/Charts/LineCharts/LineChart";
+import LineChart from "examples/Charts/LineCharts/LineChart";
 import { lineChartDataProfile1, lineChartDataProfile2 } from "variables/charts";
 import { lineChartOptionsProfile2, lineChartOptionsProfile1 } from "variables/charts";
 const CarInformations = () => {

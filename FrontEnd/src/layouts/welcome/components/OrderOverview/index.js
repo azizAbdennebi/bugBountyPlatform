@@ -32,8 +32,8 @@ import { BsCreditCardFill } from "react-icons/bs";
 import { SiDropbox } from "react-icons/si";
 
 // Vision UI Dashboard React example components
-import TimelineItem from "componentExamples/Timeline/TimelineItem";
-import AdobeXD from "componentExamples/Icons/AdobeXD";
+import TimelineItem from "examples/Timeline/TimelineItem";
+import AdobeXD from "examples/Icons/AdobeXD";
 
 // Vision UI Dashboard theme imports
 import palette from "assets/theme/base/colors";
