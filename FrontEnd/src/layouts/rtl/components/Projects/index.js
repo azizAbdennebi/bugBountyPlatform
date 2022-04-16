@@ -30,7 +30,7 @@ import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 
 // Vision UI Dashboard Materail-UI example components
-import Table from "examples/Tables/Table";
+import Table from "componentExamples/Tables/Table";
 
 // Data
 import data from "layouts/rtl/components/Projects/data";

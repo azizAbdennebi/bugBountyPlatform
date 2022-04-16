@@ -31,16 +31,16 @@ import VuiTypography from "components/VuiTypography";
 
 // Vision UI Dashboard React contexts
 import { setDirection, useVisionUIController } from "context";
-import MiniStatisticsCard from "examples/Cards/StatisticsCards/MiniStatisticsCard";
-import BarChart from "examples/Charts/BarCharts/BarChart";
+import MiniStatisticsCard from "componentExamples/Cards/StatisticsCards/MiniStatisticsCard";
+import BarChart from "componentExamples/Charts/BarCharts/BarChart";
 
 // Data
-import LineChart from "examples/Charts/LineCharts/LineChart";
-import Footer from "examples/Footer";
+import LineChart from "componentExamples/Charts/LineCharts/LineChart";
+import Footer from "componentExamples/Footer";
 
 // Vision UI Dashboard React example components
-import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
-import DashboardNavbar from "examples/Navbars/DashboardNavbar";
+import DashboardLayout from "componentExamples/LayoutContainers/DashboardLayout";
+import DashboardNavbar from "componentExamples/Navbars/DashboardNavbar";
 import OrderOverview from "layouts/rtl/components/OrderOverview";
 import Projects from "layouts/rtl/components/Projects";
 import ReferralTracking from "layouts/rtl/components/ReferralTracking";

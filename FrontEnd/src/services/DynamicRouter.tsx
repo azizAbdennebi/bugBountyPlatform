@@ -13,7 +13,7 @@ import Profile from "layouts/profile";
 
 import SignUp from "layouts/authentication/sign-up";
 import { MdOutlineWork } from "react-icons/md";
-import partners from "layouts/partners";
+import partners from "layouts/programs";
 
 // Vision UI Dashboard React icons
 
