@@ -22,7 +22,8 @@ function customRoutes() {
   var c1=new account("aziz","test","test");
   var isloggedin = account.status;
   //console.log("custom routes in place");
-  if (isloggedin) {
+  // if (isloggedin) {
+    if(true){
     console.log("logged in routes in place");
     return [
       {

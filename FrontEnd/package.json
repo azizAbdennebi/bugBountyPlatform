@@ -1,9 +1,8 @@
 {
-  "name": "vision-ui-dashboard-react",
+  "name": "bug-bounty-platform",
   "version": "3.0.0",
   "private": true,
-  "author": "Creative Tim",
-  "license": "See license in https://www.creative-tim.com/license",
+  "author": "Aziz Abdennebi & AmenAllah Barkaoui",
   "description": "Material UI version of Vision UI Dashboard by Creative Tim",
   "homepage": "https://demos.creative-tim.com/vision-ui-dashboard-react/#/dashboard",
   "bugs": {
