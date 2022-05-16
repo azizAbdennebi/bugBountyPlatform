@@ -1,4 +1,4 @@
-import postsData from "./posts";
+import postsData from "../services/posts";
 
 export default class Post {
   

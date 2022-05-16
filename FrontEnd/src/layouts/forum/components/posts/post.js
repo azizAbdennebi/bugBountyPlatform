@@ -9,7 +9,7 @@ import colors from "assets/theme/base/colors";
 import VuiAvatar from "components/VuiAvatar";
 
 import AllComment, { allComment } from "./allComments";
-import Post from "services/PostsFunctions";
+import Post from "Models/PostsFunctions";
 
 function PostComponent({ id, title, content, author, dateTime, comments, nbLikes }) {
   const { info, gradients } = colors;

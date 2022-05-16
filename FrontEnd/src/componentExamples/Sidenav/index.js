@@ -32,8 +32,8 @@ import { useVisionUIController, setMiniSidenav, setTransparentSidenav } from "co
 
 // Vision UI Dashboard React icons
 import SimmmpleLogo from "componentExamples/Icons/SimmmpleLogo";
-import account from "services/account";
-import RefreshRoutes from "services/DynamicRoutes";
+import account from "Models/account";
+// import RefreshRoutes from "services/DynamicRoutes";
 
 // function Sidenav({ color, brand, brandName, routes, ...rest }) {
 function Sidenav({ color, brandName, routes, ...rest }) {
@@ -122,7 +122,7 @@ function Sidenav({ color, brandName, routes, ...rest }) {
     } else if (type === "divider") {
       returnValue = <Divider light key={key} />;
     } else if (type == "buttonDiconnect") {
-      account.deconnection();
+      // account.deconnection();
       //RefreshRoutes();
       returnValue = (
         <NavLink to={route} key={key}>

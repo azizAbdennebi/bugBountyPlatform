@@ -1,20 +1,3 @@
-/*!
-
-=========================================================
-* Vision UI Free React - v1.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/vision-ui-free-react
-* Copyright 2021 Creative Tim (https://www.creative-tim.com/)
-* Licensed under MIT (https://github.com/creativetimofficial/vision-ui-free-react/blob/master LICENSE.md)
-
-* Design and Coded by Simmmple & Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 
 // @mui material components
 // @mui icons
@@ -42,6 +25,7 @@ import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 // Overview page components
 import Header from "layouts/profile/components/Header";
 import PlatformSettings from "layouts/profile/components/PlatformSettings";
+import account from "Models/account";
 import Welcome from "../profile/components/Welcome/index";
 import CarInformations from "./components/CarInformations";
 
@@ -97,14 +81,15 @@ function Overview() {
               },
             })}
           >
+          
             <ProfileInfoCard
               title="profile information"
               description="Hi, I’m Mark Johnson, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality)."
               info={{
-                fullName: "Mark Johnson",
-                mobile: "(44) 123 1234 123",
-                email: "mark@simmmple.com",
-                location: "United States",
+                fullName: account.mainAccount.getName(),
+                mobile: account.mainAccount.getMobile(),
+                email: account.mainAccount.getMail(),
+                location: account.mainAccount.getLocation(),
               }}
               social={[
                 {

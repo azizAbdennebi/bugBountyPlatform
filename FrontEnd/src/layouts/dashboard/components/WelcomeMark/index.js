@@ -5,6 +5,15 @@ import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 
 import gif from "assets/images/cardimgfree.png";
+import account from "Models/account";
+
+function name() {
+  if (account.status){
+    return(account.mainAccount.getName())
+
+  }
+  else return("")
+}
 
 const WelcomeMark = () => {
   return (
@@ -21,7 +30,9 @@ const WelcomeMark = () => {
             Welcome back,
           </VuiTypography>
           <VuiTypography color="white" variant="h3" fontWeight="bold" mb="18px">
-            Mark Johnson
+            {
+              name()
+              }
           </VuiTypography>
           <VuiTypography color="text" variant="h6" fontWeight="regular" mb="auto">
             Glad to see you again!

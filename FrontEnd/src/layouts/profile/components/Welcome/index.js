@@ -21,6 +21,7 @@ import { Card, Icon } from "@mui/material";
 import welcome from "assets/images/welcome-profile.png";
 import VuiTypography from "components/VuiTypography/index";
 import VuiBox from "components/VuiBox/index";
+import account from "../../../../Models/account";
 
 const Welcome = () => {
   return (
@@ -41,7 +42,7 @@ const Welcome = () => {
             Welcome back!
           </VuiTypography>
           <VuiTypography color="white" variant="button" fontWeight="regular">
-            Nice to see you, Mark Johnson!
+            Nice to see you, {account.mainAccount.getName()}!
           </VuiTypography>
         </VuiBox>
         <VuiBox justifySelf="flex-end">

@@ -60,6 +60,19 @@ import {
 // Images
 import team2 from "assets/images/team-2.jpg";
 import logoSpotify from "assets/images/small-logos/logo-spotify.svg";
+import account from "Models/account";
+
+function NameOrSign() {
+  if (account.getStatus()) {
+    return <h6>welcome {account.loadFromLocal().getName()}</h6>;
+  } else {
+    return (
+      <VuiTypography variant="button" fontWeight="medium" color="white">
+        Sign in
+      </VuiTypography>
+    );
+  }
+}
 
 function DashboardNavbar({ absolute, light, isMini }) {
   const [navbarType, setNavbarType] = useState();
@@ -175,13 +188,8 @@ function DashboardNavbar({ absolute, light, isMini }) {
                   >
                     account_circle
                   </Icon>
-                  <VuiTypography
-                    variant="button"
-                    fontWeight="medium"
-                    color={light ? "white" : "dark"}
-                  >
-                    Sign in
-                  </VuiTypography>
+
+                  <NameOrSign />
                 </IconButton>
               </Link>
               <IconButton

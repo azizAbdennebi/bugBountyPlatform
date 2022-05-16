@@ -1,6 +1,6 @@
 import { Grid } from "@mui/material";
 
-import Post from "services/PostsFunctions";
+import Post from "Models/PostsFunctions";
 import PostComponent from "./post";
 
 export default function AllPosts({ data }) {
