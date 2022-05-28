@@ -2,7 +2,7 @@ const localAccount = {
 
   name: "aziz abdennebi",
   mail: "zizouabd7@gmail.com",
-  type: "data analyst",
+  type: "security researcher",
   mobile: "(+216) 54360288",
   location: "Tunisia",
   image:
