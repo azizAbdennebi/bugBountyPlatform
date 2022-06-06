@@ -1,16 +1,5 @@
-// @mui material components
-// Vision UI Dashboard React components
-
-// Vision UI Dashboard React example components
-
-// Vision UI Dashboard React base styles
 import colors from "assets/theme/base/colors";
 
-// Dashboard layout components
-
-// React icons
-
-// Data
 // import  DefaultProjectCard  from "examples/Cards/ProjectCards/DefaultProjectCard";
 import account from "../../Models/account";
 import SecurityResearcherDashboard from "./dashboardTypes/securityResearcher";
@@ -26,9 +15,10 @@ function Dashboard() {
     if (account.mainAccount.getType() == "data analyst") {
       return <DataAnalystDashboard />;
     }
+    return <h1>account Type error</h1>;
   }
-
-  return <h1>account Type error</h1>;
+  console.log("not logged in");
+  return <h1>not logged in</h1>;
 }
 
 export default Dashboard;

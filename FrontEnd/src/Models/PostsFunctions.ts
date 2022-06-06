@@ -1,23 +1,20 @@
 import postsData from "../services/posts";
 
 export default class Post {
-  
-    static data= postsData;
+  static data = postsData;
 
   static getData(): any {
-    return (this.data);
+    return this.data;
   }
   /**
    * static addLike
    */
-  static addLike(id:number) {
-      
+  static addLike(id: number) {
     this.data.map((x) => {
-        if (x.id==id) {
-            x.NumberOfLikes+=1;
-            return;
-        }
+      if (x.id == id) {
+        x.NumberOfLikes += 1;
+        return;
+      }
     });
-      
   }
 }

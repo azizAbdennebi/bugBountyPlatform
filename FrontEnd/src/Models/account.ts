@@ -113,8 +113,7 @@ class account {
   getLocation() {
     if (account.getStatus()) return this.location;
   }
-  getType()
-  {
+  getType() {
     if (account.getStatus()) return this.type;
   }
 

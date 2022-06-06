@@ -15,4 +15,3 @@ export default function GetLocalAccountData() {
   account.mainAccount = acc;
   return (acc);
 }
-// export default getLocalAccountData;

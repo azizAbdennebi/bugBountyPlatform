@@ -24,25 +24,21 @@ import Dashboard from "layouts/dashboard";
 import localAccount from "../dummyData/account";
 import GetLocalAccountData from "../Controllers/localAccount";
 
-
-
-
-
 // Vision UI Dashboard React icons
 
 class DynamicRouters {
   static route: any;
-  
+
   static getRoutes() {
-     var aziz=GetLocalAccountData();
+    var aziz = GetLocalAccountData();
     // var aziz=new account(localAccount.name,localAccount.mail,"",localAccount.type,localAccount.mobile,localAccount.location,localAccount.image);
-      // var aziz =  new account("aziiiz","zizouabd7@gmail.com",null,"security researcher","54360288","tunisia",null,null);//if an account is created tthe routes changes
-      
-// console.log(aziz);
+    // var aziz =  new account("aziiiz","zizouabd7@gmail.com",null,"security researcher","54360288","tunisia",null,null);//if an account is created tthe routes changes
+
+    // console.log(aziz);
     // account.deconnection()
 
     // account.status=false;
-    var isloggedin =account.status;////// this boolean will determine all the routing and the sideNav bar
+    var isloggedin = account.status; ////// this boolean will determine all the routing and the sideNav bar
 
     if (isloggedin) {
       console.log("logged in routes in place");
